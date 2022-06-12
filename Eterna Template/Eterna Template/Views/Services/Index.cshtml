@@ -1,0 +1,160 @@
+﻿@using Eterna_Template.HomeViewModel
+@using Eterna_Template.Models
+@model HomeVM
+
+<main>
+
+        <div class="container">
+            <div class="row justify-content-between">
+                
+                @foreach (BigCard item in Model.bigCards)
+               {
+                                   <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="@item.Icon"></i>
+                        </div>
+                        <div class="about">
+                            <strong><a href="">@item.Title</a></strong>
+                            <p>@item.SubTitle</p>
+                        </div>
+                    </div>
+                </div>
+               }
+                @*
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-basketball"></i>
+                        </div>
+                        <div class="about">
+                            <strong><a href="">Lorem Impuls</a></strong>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+
+                </div>    
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-gauge"></i>
+                        </div>
+                        <div class="about">
+                            <strong><a href="">Magni Dolores</a></strong>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-earth-americas"></i>
+
+                        </div>
+
+                        <div class="about">
+                            <strong><a href="">Nemo Enim</a></strong>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-regular fa-file-video"></i>
+                        </div>
+
+                        <div class="about">
+                            <strong><a href="">Dele cardo</a></strong>
+                            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-archway"></i>
+                        </div>
+
+                        <div class="about">
+                            <strong><a href="">Divera don</a></strong>
+                            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                        </div>
+                    </div>
+                </div>
+*@
+
+            </div>
+        </div>
+
+        <section class="skils">
+            <div class="container ">
+                <div class="about">
+                    <h2>Our Skills</h2>
+                    <h2 class="line"></h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                </div>
+
+                <div class="BarAndImage">
+                    <div class="row">
+                        <div class="imagers col-lg-6">
+
+                            <img src="https://bootstrapmade.com/demo/templates/Eterna/assets/img/skills-img.jpg"
+                                alt="Team Working rr">
+
+                        </div>
+                        <div class=" title col-lg-6">
+
+                            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                direna past reda</p>
+
+                                @foreach (ProgressBar item in Model.progressBars)
+                               {
+                                   <div class="name d-flex justify-content-between">
+                                <span class="language">@item.LanguageName</span>
+                                <span class="percent">@item.Percend</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar @item.Color" role="progressbar" style="width: @item.Percend"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                               }
+
+                           @* <div class="name d-flex justify-content-between">
+                                <span class="language">CSS</span>
+                                <span class="percent">90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div class="name d-flex justify-content-between">
+                                <span class="language">JAVASCRIPT</span>
+                                <span class="percent">75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div class="name d-flex justify-content-between">
+                                <span class="language">PHOTOSHOP</span>
+                                <span class="percent">55%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%"
+                                    aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>*@
+
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+    </main>
