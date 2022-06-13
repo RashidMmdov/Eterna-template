@@ -143,3 +143,12 @@ C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\bin\Debug\netc
 C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\_ViewStart.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\Slider\Index.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\_ViewImports.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\Slider\Create.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\Slider\Detail.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\Slider\Edit.cshtml.g.cs
+C:\Users\resid\Desktop\Final Temp\Eterna Template\Eterna Template\obj\Debug\netcoreapp3.1\Razor\Areas\EternaAdmin\Views\Slider\Delete.cshtml.g.cs

@@ -45,14 +45,18 @@ namespace Eterna_Template
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "defualt",
-                    pattern: "{controller=services}/{action=index}/{id?}"
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=dashboard}/{action=index}/{id?}"
                     );
                 endpoints.MapControllerRoute(
                     name: "defualt",
                     pattern: "{controller=home}/{action=index}/{id?}"
                     );
-                
+                endpoints.MapControllerRoute(
+                    name: "defualt",
+                    pattern: "{controller=services}/{action=index}/{id?}"
+                    );
+
             });
         }
     }

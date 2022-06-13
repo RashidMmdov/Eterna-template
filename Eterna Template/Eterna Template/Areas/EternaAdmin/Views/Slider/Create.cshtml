@@ -1,0 +1,19 @@
+﻿@model Slider
+
+<form method="post">
+	<div>
+		<lable>Slider Title:</lable>
+		<input asp-for="Title" type="text" class="form-control" /><br />
+		<span class="text-danger" asp-validation-for="Title"></span><br />
+		<lable>Slider SubTitle:</lable>
+		<input asp-for="SubTitle" type="text" class="form-control" />
+		<lable>Slider Button:</lable>
+		<input asp-for="Button" type="text" class="form-control" />
+		<lable>Slider Image:</lable>
+		<input type="file" asp-for="Image"  class="form-control" />
+	
+	</div>
+	<div>
+		<button type="submit" class="btn btn-inverse-primary">Create Slide</button>
+	</div>
+</form>
